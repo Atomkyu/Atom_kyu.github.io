@@ -1,0 +1,80 @@
+/* aller voir html aide css */
+@font-face {
+  font-family: "font-1";
+  src: url(./assets/NotoSerif-Italic.ttf);
+}
+
+/* all en css = * */
+/* * {
+    border: 2px red solid;
+  } */
+
+body {
+  font-family: serif;
+}
+
+/* texte */
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 2.5rem;
+  color: black;
+  text-shadow: 5px 0 0 rgba(128, 128, 128, 0.473);
+  text-align: center;
+  font-family: "font-1", serif;
+}
+
+/* background */
+body {
+  background: url(../assets/fe2.png) no-repeat fixed center/cover;
+  /* height: 100vh; */
+}
+
+/* boxes */
+main {
+  background: rgba(245, 245, 245, 0.61);
+  width: 90%;
+  min-height: 500px;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.288);
+}
+
+.twitch {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.ytb {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+table {
+  background-color: gray;
+  text-align: center;
+}
+
+th,
+td {
+  background-color: white;
+}
+
+.ainv {
+  text-decoration: none;
+  color: white;
+}
+
+.pagesssbr {
+  border: 0px;
+  background: white;
+}
